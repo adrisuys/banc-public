@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family : 'DIN Alternate';
+	src: url(font/DIN Alternate.ttf) format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+	font-family : 'DIN Light';
+	src: url(font/DIN Light.ttf) format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+body {
+	margin: 0px; 
+}
+
+.wrapper {
+		width: auto;
+		overflow: hidden;
+		background-color: #cbbba1;
+    	height: auto;
+	}
+
+/*le navigateur et le header */
+
+.header {
+		height:300px;
+		background-color: #0C1D4B;
+		margin: auto;
+		padding: auto;
+		overflow: hidden;
+		-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  		background-size: cover; /* version standardisée */
+}
+	}
+
+.logo {
+		margin-right: auto;
+		overflow: hidden;
+	}
+
+.logo img {
+	margin-top: 10px;
+}
+
+.nav {
+		width: auto;
+		height: 100px;
+		overflow: hidden;
+		background-color: #97C1F4;
+	}
+
+.nav1 {
+		width: auto;
+		height: 150px;
+		overflow: hidden;
+		background-color: #52658E;
+	}
+
+.nav2 {
+		width: auto;
+		height: 150px;
+		overflow: hidden;
+		background-color: #C32FAA;
+	}
+
+.nav3 {
+		width: auto;
+		height: 150px;
+		overflow: hidden;
+		background-color: #97C1F4;
+	}
+
+.page-nav p {
+	font-size: 3em;
+}
+
+a {text-decoration: none; color:#C32FAA;}
+a:visited { text-decoration: none; color:#C32FAA;}
+a:hover { text-decoration: none; color:#C32FAA;}
+a:focus { text-decoration: none; color:#C32FAA;}
+a:hover, a:active { text-decoration: none; color:#C32FAA;}
+
+.mobile-footer {
+	background-color: #0C1D4B;
+	height: 200px;
+}
+
+.mobile-footer img {
+	margin-top: 10px;
+}
+
+p {
+	font-family: 'DIN Light', 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 2em;
+}
+
+h3 {
+	font-family: 'DIN Light', 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 2em;
+}
+
+h1 {
+	font-family: 'DIN Light', 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 3em;
+}
+
+#Inscriptions {
+	color: #C32FAA;
+}
+
+strong {
+	color: #C32FAA;
+}
+
+.form-contact {
+	background-color: #e56605;
+	font-family: 'DIN Light', 'Trebuchet MS', Helvetica, sans-serif;
+	width: 60%;
+}

@@ -1,0 +1,644 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+}
+
+.wrapper {
+		width: auto;
+		overflow: hidden;
+		background-color: #cbbba1;
+	}
+
+/*le navigateur et le header */
+
+.header {
+		height:200px;
+		background-color: #0C1D4B;
+		margin: auto;
+		padding: auto;
+		overflow: hidden;
+		-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  		background-size: cover; /* version standardisée */
+}
+	}
+
+.logo {
+		margin-right: 297px:
+		margin-left 74px;
+		margin-top: 12px;
+		height: 139px;
+		background-color: blue;
+		overflow: hidden;
+		float: left;
+	}
+
+.logo-txt {
+	float: left;
+	overflow: hidden;
+	margin-left: 250px;
+	margin-top: -100px;
+}
+
+.contact-accueil {
+	overflow: hidden;
+	float: right;
+	height: 80px;
+	width: 170px;
+	margin-top: -130px;
+
+}
+
+.contact-accueil a {
+	font-family: 'DIN Alternate';
+	font-color: white;
+	font-size: 1.2em;
+	text-decoration: none;
+	margin-top: -10px;
+}
+
+.contact-accueil a:visited { text-decoration: none; color:white; }
+.contact-accueil a:hover { text-decoration: none; color:white; }
+.contact-accueil a:focus { text-decoration: none; color:white; }
+.contact-accueil a:hover, a:active { text-decoration: none; color:white }
+
+.nav {
+		width: 950px;
+		height: 50px;
+		margin-top: 27px;
+		margin-left: 231px;
+		margin-right: 19px;
+		overflow: hidden;
+	}	
+
+.nav ul {
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	display: block;
+}
+
+.nav li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li ul {
+	display: none;
+}
+
+.nav ul li:hover ul {
+	display: block;
+	float: left;
+	margin:0;
+	position: absolute;
+}
+
+.nav li:hover ul li {
+	float:none;
+	margin: 0;
+	display: block;
+}
+
+.nav li ul {
+	position: absolute;
+	margin: 0;
+	float: left;
+	display: block;
+}
+
+#onglet {
+	float: left;
+	margin-top:0;
+	display: block;
+}
+
+.nav a {
+	display: block;
+	height: 49px;
+}
+
+
+/*le body */
+
+
+
+.corpse {
+	background-color: #cbbba1;
+	height: 900px;
+	margin: auto;
+	width: 1200px;
+	}
+
+#bienetre {
+	height: 1200px;
+}
+
+.corpse-haut-droit {
+	height: 350px;
+	width: 600px;
+	overflow: hidden;
+	float: left;
+}
+
+.corpse-haut-gauche {
+	height: 350px;
+	width: 600px;
+	overflow: hidden;
+	float: right;
+}
+
+h1 {
+	text-align: justify;
+	margin: 20px;
+	margin-right:60px;
+	font-family: 'DIN Alternate';
+	margin-left: 50px;
+}
+
+.corpse-haut-gauche p {
+	text-align: justify;
+	margin: 20px;
+	margin-right: 60px;
+	font-family: 'DIN Light';
+	margin-left: 50px;
+}
+
+.corpse-bas {
+	height:550px;
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+	margin: auto;
+}
+
+.corpse-haut {
+	height:900px;
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+	margin: auto;
+}
+
+#photo-prim {
+	float: left;
+	overflow: hidden;
+	margin-left: 250px;
+}
+
+#photo-sec {
+	float: left;
+	overflow: hidden;
+	margin-left: 200px;
+}
+
+#bienetrepage {
+	width:1140px;
+	padding-right: 60px;
+	height: 1200px;
+}
+
+#bienetrepage p {
+	text-align: justify;
+}
+
+#braingym-gauche{
+	width:600px;
+	margin:auto;
+	float: left;	
+}
+
+#braingym-droit{
+	width:600px;
+	margin:auto;
+	float: right;	
+	padding-left: 0px;
+}
+
+#braingym-droit img {
+	margin-left: 70px;
+	margin-top: 50px;
+}
+
+#braingym-droit p {
+	margin-left: 70px;
+	margin-right: 85px;
+}
+
+
+.corpse-haut p {
+	margin-top:20px;
+	margin-left: 50px;
+	font-family: 'DIN Light';
+	text-align: justify;
+}
+
+.corpse-haut h3 {
+	margin-top:20px;
+	margin-left: 50px;
+	font-family: 'DIN Alternate'
+}
+
+.corpse-haut strong {
+	color:#bf2cb0;
+}
+
+.corpse-haut #Inscriptions {
+	color: #bf2cb0;
+}
+
+.corpse-haut a {text-decoration: none; color: #0C1D4B;}
+.corpse-haut a:visited { text-decoration: none; color: #0C1D4B; }
+.corpse-haut a:hover { text-decoration: none; color: #0C1D4B; }
+.corpse-haut a:focus { text-decoration: none; color: #0C1D4B; }
+.corpse-haut a:hover, a:active { text-decoration: none; color: #0C1D4B; }
+
+#nature a {text-decoration: none; color: #0C1D4B;}
+#nature a:visited { text-decoration: none; color: #0C1D4B; }
+#nature a:hover { text-decoration: none; color: #0C1D4B; }
+#nature a:focus { text-decoration: none; color: #0C1D4B; }
+#nature a:hover, a:active { text-decoration: none; color: #0C1D4B; }
+
+
+#blue{
+	color: #0C1D4B;
+}
+
+#ateliers {
+	width: 1200px;
+	height:300px;
+}
+
+#atelier p {
+	text-align: justify;
+}
+
+.cote-gauche {
+	width: 360px;
+	float: left;
+	overflow: hidden;
+}
+
+.cote-centre {
+	width: 360px;
+	overflow: hidden;
+}
+
+.cote-droite {
+	width: 360px;
+	overflow: hidden;
+	float: right;
+	margin-top: -175px;
+	margin-right: 100px;
+}
+
+#ateliers-texte{
+	margin-top: -100px;
+}
+
+#corpse-theatre {
+	height: 1350;
+}
+
+#theatre-haut-gauche {
+	width: 540px;
+	overflow: hidden;
+	float: left;
+	padding-right: 60px;
+	height: 350px;
+}
+
+#theatre-haut-droite {
+	width: 600px;
+	overflow: hidden;
+	float: right;
+	height: 350px;
+}
+
+#theatre-bas-gauche {
+	width: 600px;
+	overflow: hidden;
+	float: left;
+	height: 300px;
+}
+
+#theatre-bas-gauche img {
+	margin-left: 50px;
+}
+
+#theatre-bas-droite {
+	width: 540px;
+	overflow: hidden;
+	float: right;
+	height: 300px;
+	padding-right: 60px;
+}
+
+#theatre-haut-droite img {
+	margin-left: 50px;
+}
+
+#theatre-txt {
+	width: 1200px;
+	height: 300px;
+	margin: 30px;
+	overflow: hidden;
+}
+
+#stages {
+	height: 650px;
+}
+
+#stages p {
+	font-family: 'DIN Light';
+	margin-left: 50px;
+}
+
+#stages h3 {
+	font-family: 'DIN Alternate';
+	margin-left: 50px;
+}
+
+#stages strong {
+	color: #bf2cb0 ;
+}
+
+#stages a {text-decoration: none; color: #0C1D4B;}
+#stages a:visited { text-decoration: none; color: #0C1D4B; }
+#stages a:hover { text-decoration: none; color: #0C1D4B; }
+#stages a:focus { text-decoration: none; color: #0C1D4B; }
+#stages a:hover, a:active { text-decoration: none; color: #0C1D4B; } 
+
+.corpse-bas-highlight {
+	height: 400px;
+	width: 220px;
+	margin-right:50px;
+	float: left;
+	overflow: hidden;
+	margin-top: 50px;
+	
+}
+
+.corpse-bas-highlight-theatre {
+	height: 220px;
+	width: 220px;
+	margin-right:50px;
+	float: left;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.corpse-bas-highlight-photo {
+	height: 220px;
+	background-color: blue;
+	display: block;
+}
+
+#remediation {
+	margin-left: 110px;
+}
+
+#art {
+	height: 100px;
+	padding-left: 20px;
+	width: 1100;
+}
+
+#art p {
+	margin-left: 50px;
+	font-family: 'DIN Light';
+}
+
+#art-gauche img {
+	margin-left: 50px;
+}
+
+#art-droit img {
+	margin-left: 50px;
+}
+
+#art strong {
+	color:#bf2cb0;
+}
+
+#art-droit a {text-decoration: none; color: #E56605;}
+#art-droit a:visited { text-decoration: none; color: #E56605; }
+#art-droit a:hover { text-decoration: none; color: #E56605; }
+#art-droit a:focus { text-decoration: none; color: #E56605; }
+#art-droit a:hover, a:active { text-decoration: none; color: #E56605; }
+
+#art-gauche p {
+	font-family: 'DIN Light';
+	margin-left: 50px;
+}
+
+#art-gauche a {text-decoration: none; color: #E56605;}
+#art-gauche a:visited { text-decoration: none; color: #E56605; }
+#art-gauche a:hover { text-decoration: none; color: #E56605; }
+#art-gauche a:focus { text-decoration: none; color: #E56605; }
+#art-gauche a:hover, a:active { text-decoration: none; color: #E56605; }
+
+#presse h1{
+	margin-left: 110px;
+	margin-top: 50px;
+}
+
+#presse h2 {
+	font-family: 'DIN Alternate';
+	font-size: 1.4em;
+	margin-left: 20px;
+	color: #0C1D4B;
+}
+
+#presse a {text-decoration: none; color: #E56605;}
+#presse a:visited { text-decoration: none; color: #E56605; }
+#presse a:hover { text-decoration: none; color: #E56605; }
+#presse a:focus { text-decoration: none; color: #E56605; }
+#presse a:hover, a:active { text-decoration: none; color: #E56605; }
+
+
+#presse p {
+	font-family: 'DIN Light';
+	margin-left: 20px;
+}
+
+#index p {
+	font-family: 'DIN Light';
+	text-align: justify;
+}
+
+#remed p {
+	font-family: 'DIN Light';
+	text-align: justify;
+}
+
+#corpse-bas-nature p {
+	font-family: 'DIN Light';
+	text-align: justify;
+}
+
+#stagecorpsemain {
+	height: 1300px;
+}
+
+.form {
+	background-color: #e56605;
+	height:500px;
+	width: 600px;
+	margin-left: 300px;
+	overflow: hidden;
+	float: left;
+	font-family: 'DIN Light';
+	padding: 20px;
+}
+
+#nature {
+	float: left;
+	overflow: hidden;
+	height: 200px;
+	width: 1200px;
+	margin: auto;
+}
+
+#nature p {
+	margin-right:50px;
+	text-align: justify;
+}
+
+#jeusociete {
+	height: 550px;
+}
+
+#neuf {
+	height: 780px;
+}
+
+#jeusociete p {
+	font-family: 'DIN Light';
+	margin-left: 50px;
+}
+
+#jeusociete strong {
+	color:#bf2cb0;
+}
+
+#jeusociete img {
+	margin-left: 100px;
+	margin-top:20px;
+}
+
+#jeusociete a {text-decoration: none; color: #0C1D4B;}
+#jeusociete a:visited { text-decoration: none; color: #0C1D4B; }
+#jeusociete a:hover { text-decoration: none; color: #0C1D4B; }
+#jeusociete a:focus { text-decoration: none; color: #0C1D4B; }
+#jeusociete a:hover, a:active { text-decoration: none; color: #0C1D4B; }
+
+#neuf p {
+	font-family: 'DIN Light';
+	margin-left: 50px;
+}
+
+#neuf strong {
+	color:#bf2cb0;
+}
+
+#neuf img {
+	margin-left: 100px;
+	margin-top:20px;
+}
+
+#neuf a {text-decoration: none; color: #0C1D4B;}
+#neuf a:visited { text-decoration: none; color: #0C1D4B; }
+#neuf a:hover { text-decoration: none; color: #0C1D4B; }
+#neuf a:focus { text-decoration: none; color: #0C1D4B; }
+#neuf a:hover, a:active { text-decoration: none; color: #0C1D4B; }
+
+.form-contact {
+	margin-left: 200px;
+	background-color: #e56605;
+	width: 500px;
+	height: 500px;
+	float: left;
+	overflow: hidden;
+	padding: 20px;
+	font-family: 'DIN Light';
+}
+
+.index-photo {
+	margin-left: 200px;
+	height: 350px;
+	width:400px;
+	float: left;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+
+/*le footer */
+
+
+
+
+.footer {
+
+	height: 250px;
+	margin: auto;
+	overflow: hidden;
+	background-color: #0C1D4B;
+    width: 1200px;
+}
+}
+
+.footer .sponsors {
+	width: 760px;
+	height: 210px;
+	margin-top: 20px;
+	float: left;
+	background-color: green;
+	overflow: hidden;
+	margin-left: 90px;
+}
+
+.footer .contacts {
+	width: 220px;
+	margin-top: -200px;
+	margin-right: 40px;
+	overflow: hidden;
+	float: right;
+	height: 210px;
+}
+
+.contacts h2 {
+	font-family: 'DIN Alternate';
+	font-size: 1.3em;
+	margin-left: 20px;
+	color: white;
+}
+
+.contacts p {
+	font-family: 'DIN Light';
+	font-size: 1em;
+	margin-left: 20px;
+	color:white;
+}
+
+.contacts img {
+	margin-left: 20px;
+}
+
+#Facebook {
+	float: right;
+	width: 120px;
+	margin-top: 1px;
+	margin-right:10px;
+	font-size:0.9em;
+	color: white;
+}
+
+#Facebook a { text-decoration: none; color: white; }
+#Facebook a:visited { text-decoration: none; color:white; }
+#Facebook a:hover { text-decoration: none; color:white; }
+#Facebook  a:focus { text-decoration: none; color:white; }
+#Facebook  a:hover, a:active { text-decoration: none; color:white; }
